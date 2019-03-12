@@ -19,7 +19,7 @@ Node
 const FBUserFileStoreClient = require('@ministryofjustice/fb-user-filestore-client-node')
 
 // initialise client
-const userFileStoreClient = new FBUserFileStoreClient(serviceToken, serviceSlug, userFileStoreUrl)
+const userFileStoreClient = new FBUserFileStoreClient(serviceSecret, serviceToken, serviceSlug, userFileStoreUrl)
 ```
 
 ### Fetching and storing
@@ -35,6 +35,6 @@ uploadDetails = await userFileStoreClient.store(userId, userToken, file, policy)
 // uploadDetails => { fingerpint, url, size, type, date }
 
 // store user file from file path
-uploadDetails = await userFileStoreClient.store(userId, userToken, filePath, policy)
+uploadDetails = await userFileStoreClient.storeFromPath(userId, userToken, filePath, policy)
 ```
 
