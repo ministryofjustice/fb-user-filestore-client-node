@@ -26,7 +26,7 @@ const userFileStoreClient = new FBUserFileStoreClient(serviceSecret, serviceToke
 
 ``` javascript
 // fetch user file
-userFile = await userFileStoreClient.fetch(userId, fingerprint)
+userFile = await userFileStoreClient.fetch(userId, userToken, fingerprint)
 // userFile => { file }
 
 // store user file
