@@ -1,6 +1,6 @@
 {
   "name": "@ministryofjustice/fb-user-filestore-client-node",
-  "version": "0.0.19",
+  "version": "0.0.22",
   "description": "Form Builder User File Store Client (Node)",
   "main": "lib/fb-user-filestore-client.js",
   "repository": {
@@ -28,6 +28,6 @@
     "tape": "^4.9.2"
   },
   "dependencies": {
-    "@ministryofjustice/fb-jwt-client-node": "https://github.com/ministryofjustice/fb-jwt-client-node.git#4c3c76f11b6c3b6afd63764cdb8fd2d64f3634e4"
+    "@ministryofjustice/fb-jwt-client-node": "0.0.22"
   }
 }
