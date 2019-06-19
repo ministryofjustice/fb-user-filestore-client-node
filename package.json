@@ -22,8 +22,6 @@
     "multi-tape": "^1.2.1",
     "npm-run-all": "^4.1.5",
     "proxyquire": "^2.1.0",
-    "request": "^2.88.0",
-    "request-promise-native": "^1.0.5",
     "sinon": "^7.3.2",
     "tape": "^4.10.2"
   },
