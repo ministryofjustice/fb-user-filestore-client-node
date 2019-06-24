@@ -10,7 +10,7 @@ jobs:
           name: Install
           command: npm install
       - run:
-          name: Runs ESLin and test
+          name: Runs ESLint and test
           command: npm run test
 
 
