@@ -1,31 +1,27 @@
 {
   "name": "@ministryofjustice/fb-user-filestore-client-node",
-  "version": "0.0.27",
-  "description": "Form Builder User File Store Client (Node)",
+  "version": "0.0.28",
+  "description": "Form Builder User File Store Client (for Node)",
   "main": "lib/fb-user-filestore-client.js",
+  "scripts": {
+    "lint": "eslint lib",
+    "lint:fix": "eslint lib --fix",
+    "test": "tap --reporter spec"
+  },
+  "author": "Form Builder Team <form-builder-team@digital.justice.gov.uk>",
   "repository": {
     "type": "git",
     "url": "https://github.com/ministryofjustice/fb-user-filestore-client-node.git"
   },
-  "scripts": {
-    "lint": "npm-run-all lint:lib",
-    "lint:lib": "eslint lib",
-    "test": "npm-run-all lint test:all",
-    "test:all": "npm-run-all test:unit",
-    "test:unit": "multi-tape lib/**/*.unit.spec.js"
-  },
-  "author": "github@alex.fu2k.org",
   "license": "MIT",
-  "devDependencies": {
-    "@ministryofjustice/eslint-config-fb": "^1.0.7",
-    "jsonwebtoken": "^8.5.1",
-    "multi-tape": "^1.2.1",
-    "npm-run-all": "^4.1.5",
-    "proxyquire": "^2.1.0",
-    "sinon": "^7.3.2",
-    "tape": "^4.10.2"
-  },
   "dependencies": {
     "@ministryofjustice/fb-jwt-client-node": "0.0.27"
+  },
+  "devDependencies": {
+    "@ministryofjustice/eslint-config-fb": "^1.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "sinon": "^7.5.0",
+    "tap": "^14.8.2",
+    "tape": "^4.11.0"
   }
 }
