@@ -18,7 +18,7 @@
     "@ministryofjustice/fb-jwt-client-node": "0.0.28"
   },
   "devDependencies": {
-    "@ministryofjustice/eslint-config-fb": "^1.1.2",
+    "@ministryofjustice/eslint-config-fb": "^1.1.4",
     "jsonwebtoken": "^8.5.1",
     "sinon": "^7.5.0",
     "tap": "^14.8.2",
