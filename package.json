@@ -15,7 +15,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@ministryofjustice/fb-jwt-client-node": "0.0.29"
+    "@ministryofjustice/fb-jwt-client-node": "0.0.30"
   },
   "devDependencies": {
     "@ministryofjustice/eslint-config-fb": "^1.1.4",
