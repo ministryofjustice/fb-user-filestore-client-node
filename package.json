@@ -1,6 +1,6 @@
 {
   "name": "@ministryofjustice/fb-user-filestore-client-node",
-  "version": "0.0.30",
+  "version": "0.0.31",
   "description": "Form Builder User File Store Client (for Node)",
   "main": "lib/fb-user-filestore-client.js",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@ministryofjustice/fb-jwt-client-node": "0.0.30"
+    "@ministryofjustice/fb-jwt-client-node": "0.0.32"
   },
   "devDependencies": {
     "@ministryofjustice/eslint-config-fb": "^1.1.4",
