@@ -1,6 +1,6 @@
 {
   "name": "@ministryofjustice/fb-user-filestore-client-node",
-  "version": "0.0.33",
+  "version": "0.0.34",
   "description": "Form Builder User File Store Client (for Node)",
   "main": "lib/fb-user-filestore-client.js",
   "scripts": {
